@@ -4,7 +4,7 @@ import { MapContainer, TileLayer } from 'react-leaflet';
 const Map = () => {
   return (
     <MapContainer
-      center={[51.505, -0.09]} // Certifique-se de que estas coordenadas estejam corretas
+      center={[-23.006046, -43.313355]} // Certifique-se de que estas coordenadas estejam corretas
       zoom={13} // Ajuste o nível de zoom conforme necessário
       style={{ width: '100%', height: '800px' }}
     >
