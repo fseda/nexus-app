@@ -1,0 +1,39 @@
+/* Estilize o contêiner do mapa ou outros elementos, se necessário */
+.App {
+  text-align: center;
+}
+/* Adicione estilos aos botões */
+.post__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.post__like-button {
+  background-color: #F26522;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post__comment-button {
+  background-color: #2D88FF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Adicione estilos para os comentários */
+.post__comments ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post__comments li {
+  margin: 5px 0;
+}
+
