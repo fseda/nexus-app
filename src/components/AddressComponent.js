@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const AddressWrapper = styled.div`
     margin-top: 5px;
-    font-size: 0.6875rem;
+    font-size: 1rem;
     color: #777;
     line-height: 1rem;
 `;

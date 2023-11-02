@@ -24,21 +24,22 @@ function App() {
   // Estado para as postagens
   const [posts, setPosts] = useState([
     {
-      title: 'Janela Bar',
-      address: 'Rua das Ondas, 123, Ipanema',
-      postalCode: '22020-010',
-      description: `O Janela sempre foi um lugar especial em Ipanema, com uma história peculiar que permanece viva nos corações dos moradores do bairro. A história começa há décadas, quando o bar era apenas uma modesta lanchonete à beira-mar.
-      A fama do Janela cresceu, e com o tempo, atraiu turistas de todas as partes do mundo. Os músicos locais começaram a tocar bossa nova e samba no pequeno palco improvisado, e o Janela ganhou uma reputação como local de encontro para apreciar boa música e comida.`,
-      imgUrl: "../public/assets/janela-bar.png",
-      likes: 100,
-      comments: 32,
+      title: 'Centro Cultural da Justiça Federal (CCJF)',
+      address: 'Av. Rio Branco, 241 - Centro',
+      postalCode: '20040-009',
+      description: `Um dos destaques do Centro do Rio de Janeiro e do Tour Prédios Antigos da Cinelândia é o Centro Cultural da Justiça Federal (CCJF), que ocupa o prédio da antiga sede do Supremo Tribunal Federal.
+      `,
+      imgUrl: "../public/assets/centro.png",
+      likes: 397,
+      comments: 62,
     },
     {
-      title: 'Lorem Ipsum',
-      address: 'Lorem Ipsum, 123, Lorem Ipsum',
-      postalCode: '12345-678',
+      title: 'Edifício Atlântica Boavista',
+      address: 'Rua Prudente de Morais, 630 - Ipanema',
+      postalCode: '22420-040',
+      imgUrl: "../public/assets/edificioipanema.png",
       likes: 420,
-      comments: 69,
+      comments: 99,
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import AddressComponent from './AddressComponent';
 
 const Post = styled.div`
-  width: 500px;
+  width: 600px;
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   overflow: hidden;
@@ -27,14 +27,14 @@ const PostContent = styled.div`
 `
 
 const PostTitle = styled.h3`
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0px auto;
   font-weight: 700;
 `
 
 const PostDescription = styled.p`
   // width: 19rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-bottom: 10px;
   color: #000;
