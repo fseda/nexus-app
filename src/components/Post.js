@@ -83,7 +83,7 @@ const Separator = styled.div`
 const PostComponent = ({ post }) => {
   return (
     <Post>
-      <PostImage src={process.env.PUBLIC_URL +  "/assets/janelar-bar.png"} alt={post.name} />
+      <PostImage src={process.env.PUBLIC_URL + "/assets/" + post.imgUrl} alt={post.name} />
         <PostContent>
           <PostTitle>{post.title}</PostTitle>
           <AddressComponent address={post.address} postalCode={post.postalCode}/>
