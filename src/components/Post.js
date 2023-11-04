@@ -5,7 +5,8 @@ import AdditionalPhotos from './AdditionalPhotos';
 import MapComponent from './MapComponent';
 
 const Post = styled.div`
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   overflow: hidden;
@@ -16,6 +17,7 @@ const Post = styled.div`
     width: 100%;
   }
 `;
+`
 
 const PostImage = styled.img`
   width: 100%;
@@ -125,6 +127,25 @@ const PostComponent = ({ post }) => {
           <img src={process.env.PUBLIC_URL + "/assets/bookmark.svg"} alt="" />
         </InteractionSpan>
       </PostInteraction>
+      <PostImage src={`/assets/${post.imgUrl}`} alt={post.name} />
+        <PostContent>
+          <PostTitle>{post.title}</PostTitle>
+          <AddressComponent address={post.address} postalCode={post.postalCode}/>
+          <PostDescription>{post.description}</PostDescription>
+          <DetailsButton>Ver detalhes</DetailsButton>
+        </PostContent>
+        <Separator/>
+        <PostInteraction>
+          <InteractionSpan>
+            <img src={process.env.PUBLIC_URL + "assets/heart.svg"} alt="" />
+            {post.likes}
+          </InteractionSpan>
+          <InteractionSpan>
+            <img src={process.env.PUBLIC_URL + "assets/comment.svg"} alt="" />
+            {post.comments}  
+          </InteractionSpan>
+          <InteractionSpan><img src={process.env.PUBLIC_URL + "assets/bookmark.svg"} alt="" /></InteractionSpan>
+        </PostInteraction>
     </Post>
   );
 };
