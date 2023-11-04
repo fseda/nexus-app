@@ -5,12 +5,9 @@ import { FooterButton } from './components/FooterButton';
 import { Footer, Header } from './components/Layout';
 import MenuComponent from './components/MenuComponent';
 import PostComponent from './components/Post';
-import styled from 'styled-components';
-import Map from './components/Map';
 import SearchBar from './components/SearchBar';
 import NotFound from './components/NotFound';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-
 
 const Main = styled.main`
   margin: 0 auto;
@@ -55,6 +52,7 @@ function App() {
       imgUrl: "centro.png",
       likes: 397,
       comments: 62,
+      coordinates: [-22.9106518, -43.1754904,21]
     },
     {
       title: 'Edifício Atlântica Boavista',
@@ -63,94 +61,117 @@ function App() {
       imgUrl: "edificioipanema.png",
       likes: 420,
       comments: 99,
+      coordinates: [-22.985298, -43.202795],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum in quia facere numquam delectus dolorum, rem inventore molestias velit cum beatae non debitis, quisquam, et facilis deleniti nemo ad officia. Cum sociis natoque penatibus et justo consequ  atur magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
       title: 'Lorem Ipsum',
       address: 'Lorem Ipsum, 123, Lorem Ipsum',
       postalCode: '12345-678',
+      imgUrl: 'janela-bar.png',
       likes: 420,
       comments: 69,
+      coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
   ]);
@@ -169,7 +190,7 @@ function App() {
           post={post}
         />
       </FadeTransition>
-    ));
+  ));
     
   return (
     <div className="App">
@@ -182,8 +203,7 @@ function App() {
             value={search}
             onChange={handleSearch}
           />
-        ))}
-        <Map /> {/* Adicione o componente Map aqui */}
+        {/* <Map /> // Adicione o componente Map aqui */}
         </Header>
         <TransitionGroup component={null}>
           {filteredPosts.length > 0 ? 

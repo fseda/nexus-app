@@ -17,7 +17,6 @@ const Post = styled.div`
     width: 100%;
   }
 `;
-`
 
 const PostImage = styled.img`
   width: 100%;
@@ -83,6 +82,10 @@ const Separator = styled.div`
   background-color: #00000021;
 `;
 
+const PostDetails = styled.div`
+  padding: 30px 15px 15px 15px;
+`;
+
 const PostComponent = ({ post }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -92,7 +95,7 @@ const PostComponent = ({ post }) => {
 
   return (
     <Post>
-      <PostImage src={process.env.PUBLIC_URL + "/assets/" + post.imgUrl} alt={post.name} />
+      <PostImage src={`/assets/${post.imgUrl}`} alt={post.name} />
       <PostContent>
         <PostTitle>{post.title}</PostTitle>
         <AddressComponent address={post.address} postalCode={post.postalCode} />
@@ -102,50 +105,31 @@ const PostComponent = ({ post }) => {
         </DetailsButton>
         {isExpanded && (
           // Conteúdo adicional a ser mostrado quando o card estiver expandido
-          <div>
+          <PostDetails>
             {/* Renderize mais fotos e informações de geolocalização aqui */}
             {/* Exemplo: */}
             <AdditionalPhotos>
-              <img src={process.env.PUBLIC_URL + "/assets/photo1.jpg"} alt="Photo 1" />
-              <img src={process.env.PUBLIC_URL + "/assets/photo2.jpg"} alt="Photo 2" />
+              <img src={"/assets/janela-bar.jpg"} alt="" />
+              <img src={"/assets/janela-bar.jpg"} alt="" />
             </AdditionalPhotos>
-            <MapComponent latitude={post.latitude} longitude={post.longitude} />
-          </div>
+            <MapComponent title={post.title} coordinates={post.coordinates} />
+          </PostDetails>
         )}
       </PostContent>
       <Separator />
       <PostInteraction>
         <InteractionSpan>
-          <img src={process.env.PUBLIC_URL + "/assets/heart.svg"} alt="" />
+          <img src={"/assets/heart.svg"} alt="" />
           {post.likes}
         </InteractionSpan>
         <InteractionSpan>
-          <img src={process.env.PUBLIC_URL + "/assets/comment.svg"} alt="" />
+          <img src={"/assets/comment.svg"} alt="" />
           {post.comments}
         </InteractionSpan>
         <InteractionSpan>
-          <img src={process.env.PUBLIC_URL + "/assets/bookmark.svg"} alt="" />
+          <img src={"/assets/bookmark.svg"} alt="" />
         </InteractionSpan>
       </PostInteraction>
-      <PostImage src={`/assets/${post.imgUrl}`} alt={post.name} />
-        <PostContent>
-          <PostTitle>{post.title}</PostTitle>
-          <AddressComponent address={post.address} postalCode={post.postalCode}/>
-          <PostDescription>{post.description}</PostDescription>
-          <DetailsButton>Ver detalhes</DetailsButton>
-        </PostContent>
-        <Separator/>
-        <PostInteraction>
-          <InteractionSpan>
-            <img src={process.env.PUBLIC_URL + "assets/heart.svg"} alt="" />
-            {post.likes}
-          </InteractionSpan>
-          <InteractionSpan>
-            <img src={process.env.PUBLIC_URL + "assets/comment.svg"} alt="" />
-            {post.comments}  
-          </InteractionSpan>
-          <InteractionSpan><img src={process.env.PUBLIC_URL + "assets/bookmark.svg"} alt="" /></InteractionSpan>
-        </PostInteraction>
     </Post>
   );
 };
