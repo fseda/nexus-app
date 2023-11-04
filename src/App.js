@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import PostComponent from './components/Post';
 import styled from 'styled-components';
+import Map from './components/Map';
 
 
 const Main = styled.main`
@@ -48,7 +49,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -57,7 +57,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -66,7 +65,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -75,7 +73,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -84,7 +81,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -93,7 +89,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -102,7 +97,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -111,7 +105,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -120,7 +113,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -129,7 +121,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
     {
@@ -138,7 +129,6 @@ function App() {
       postalCode: '12345-678',
       likes: 420,
       comments: 69,
-      imgUrl: 'janelar-bar.png',
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
     },
   ]);
@@ -152,9 +142,11 @@ function App() {
             post={post}
           />
         ))}
+        <Map /> {/* Adicione o componente Map aqui */}
       </Main>
     </div>
   );
 }
+
 
 export default App;
