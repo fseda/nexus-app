@@ -3,16 +3,14 @@ import styled from 'styled-components';
 import AddressComponent from './AddressComponent';
 
 const Post = styled.div`
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   overflow: hidden;
   margin: 20px;
   background-color: #F6F6F6;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  @media (max-width: 500px) {
-    width: 100%;
-  } 
 `
 
 const PostImage = styled.img`
@@ -83,7 +81,7 @@ const Separator = styled.div`
 const PostComponent = ({ post }) => {
   return (
     <Post>
-      <PostImage src={process.env.PUBLIC_URL + "/assets/" + post.imgUrl} alt={post.name} />
+      <PostImage src={`/assets/${post.imgUrl}`} alt={post.name} />
         <PostContent>
           <PostTitle>{post.title}</PostTitle>
           <AddressComponent address={post.address} postalCode={post.postalCode}/>
