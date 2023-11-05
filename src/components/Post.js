@@ -86,6 +86,19 @@ const PostDetails = styled.div`
   padding: 30px 15px 15px 15px;
 `;
 
+const PostHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 0;  
+`;
+
+const PostDetails1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-contents: center;
+`
+
 const PostComponent = ({ post }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -97,17 +110,21 @@ const PostComponent = ({ post }) => {
     <Post>
       <PostImage src={`/assets/${post.imgUrl}`} alt={post.name} />
       <PostContent>
-        <PostTitle>{post.title}</PostTitle>
-        <AddressComponent address={post.address} postalCode={post.postalCode} />
+        <PostHeader>
+          <PostDetails1>
+            <PostTitle>{post.title}</PostTitle>
+            <AddressComponent address={post.address} postalCode={post.postalCode} />
+          </PostDetails1>
+          <DetailsButton onClick={toggleExpansion}>
+            {isExpanded ? "Esconder detalhes" : "Mostrar detalhes"}
+          </DetailsButton>
+        </PostHeader>
+
+
         <PostDescription>{post.description}</PostDescription>
-        <DetailsButton onClick={toggleExpansion}>
-          Ver detalhes
-        </DetailsButton>
+        
         {isExpanded && (
-          // Conteúdo adicional a ser mostrado quando o card estiver expandido
           <PostDetails>
-            {/* Renderize mais fotos e informações de geolocalização aqui */}
-            {/* Exemplo: */}
             <AdditionalPhotos>
               <img src={"/assets/janela-bar.jpg"} alt="" />
               <img src={"/assets/janela-bar.jpg"} alt="" />

@@ -194,17 +194,16 @@ function App() {
     
   return (
     <div className="App">
+      <Header>
+        <MenuComponent/>
+        <SearchBar
+          type="text"
+          placeholder="Pesquise aqui"
+          value={search}
+          onChange={handleSearch}
+        />
+      </Header>
       <Main>
-        <Header>
-          <MenuComponent/>
-          <SearchBar
-            type="text"
-            placeholder="Pesquise aqui"
-            value={search}
-            onChange={handleSearch}
-          />
-        {/* <Map /> // Adicione o componente Map aqui */}
-        </Header>
         <TransitionGroup component={null}>
           {filteredPosts.length > 0 ? 
             filteredPosts : 
@@ -213,7 +212,8 @@ function App() {
            </FadeTransition>
           }
         </TransitionGroup>
-        <Footer>
+      </Main>
+      <Footer>
           <FooterButton>
             <img src="/assets/favorites.png" alt="favorites" />
             <small>FAVORITOS</small>
@@ -226,8 +226,7 @@ function App() {
             <img src="/assets/minha-conta.png" alt="favorites" />
             <small>MINHA CONTA</small>
           </FooterButton>
-        </Footer>
-      </Main>
+      </Footer>
     </div>
   );
 }
