@@ -103,6 +103,8 @@ const PostDetails = styled.div`
 const PostComponent = ({ post }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  const additionalPhotos = post.additionalPhotos ?? [];
+
   const toggleExpansion = () => {
     setIsExpanded(!isExpanded);
   };
@@ -126,12 +128,9 @@ const PostComponent = ({ post }) => {
           <PostExpanded>
             <AdditionalPhotos 
               className="additional-photos"
-              photos={[
-                { url: "edificioipanema.png" },
-                { url: "edificioipanema.png" },
-                { url: "centro.png" },
-                { url: "edificioipanema.png" },
-              ]}
+              photos={additionalPhotos.map((photo) => { 
+                return { url: photo }
+              })}
             />
             <MapComponent title={post.title} coordinates={post.coordinates} />
           </PostExpanded>

@@ -52,7 +52,13 @@ function App() {
       imgUrl: "centro.png",
       likes: 397,
       comments: 62,
-      coordinates: [-22.9106518, -43.1754904,21]
+      coordinates: [-22.9106518, -43.1754904,21],
+      additionalPhotos: [
+        'centro.png',
+        'centro.png',
+        'centro.png',
+        'centro.png',
+      ]
     },
     {
       title: 'Edifício Atlântica Boavista',

@@ -40,6 +40,10 @@ const Photo = styled.div`
 `;
 
 const AdditionalPhotos = ({ photos }) => {
+  if (!photos || photos.length === 0) {
+    return null;
+  }
+
   return (
     <div>
       <h3>Fotos Adicionais</h3>
