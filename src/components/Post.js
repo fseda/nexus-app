@@ -32,7 +32,7 @@ const PostContent = styled.div`
 
 const PostTitle = styled.h3`
   font-size: 1.2rem;
-  margin: 0px auto;
+  margin: 0;
   font-weight: 700;
 `;
 
@@ -43,7 +43,7 @@ const PostDescription = styled.p`
   color: #000;
 `;
 
-const DetailsButton = styled.button`
+const ExpandButton = styled.button`
   background-color: #3498db;
   color: white;
   padding: 8px 15px;
@@ -83,7 +83,7 @@ const Separator = styled.div`
   background-color: #00000021;
 `;
 
-const PostDetails = styled.div`
+const PostExpanded = styled.div`
   padding: 30px 15px 15px 15px;
 `;
 
@@ -94,14 +94,16 @@ const PostHeader = styled.div`
   padding: 10px 0;  
 `;
 
-const PostDetails1 = styled.div`
+const PostDetails = styled.div`
   display: flex;
   flex-direction: column;
-  justify-contents: center;
+  justify-content: center;
 `
 
 const PostComponent = ({ post }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+
+  const additionalPhotos = post.additionalPhotos ?? [];
 
   const toggleExpansion = () => {
     setIsExpanded(!isExpanded);
@@ -112,29 +114,26 @@ const PostComponent = ({ post }) => {
       <PostImage src={`/assets/${post.imgUrl}`} alt={post.name} />
       <PostContent>
         <PostHeader>
-          <PostDetails1>
+          <PostDetails>
             <PostTitle>{post.title}</PostTitle>
             <AddressComponent address={post.address} postalCode={post.postalCode} />
-          </PostDetails1>
-          <DetailsButton onClick={toggleExpansion}>
+          </PostDetails>
+          <ExpandButton onClick={toggleExpansion}>
             {isExpanded ? "Esconder detalhes" : "Mostrar detalhes"}
-          </DetailsButton>
+          </ExpandButton>
         </PostHeader>
         <PostDescription>{post.description}</PostDescription>
         
         {isExpanded && (
-          <PostDetails>
+          <PostExpanded>
             <AdditionalPhotos 
               className="additional-photos"
-              photos={[
-                { url: "edificioipanema.png" },
-                { url: "edificioipanema.png" },
-                { url: "centro.png" },
-                { url: "edificioipanema.png" },
-              ]}
+              photos={additionalPhotos.map((photo) => { 
+                return { url: photo }
+              })}
             />
             <MapComponent title={post.title} coordinates={post.coordinates} />
-          </PostDetails>
+          </PostExpanded>
         )}
 
       </PostContent>
