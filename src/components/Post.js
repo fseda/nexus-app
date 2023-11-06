@@ -21,6 +21,7 @@ const Post = styled.div`
 const PostImage = styled.img`
   width: 100%;
   height: auto;
+  object-fit: cover;
 `;
 
 const PostContent = styled.div`
@@ -119,19 +120,23 @@ const PostComponent = ({ post }) => {
             {isExpanded ? "Esconder detalhes" : "Mostrar detalhes"}
           </DetailsButton>
         </PostHeader>
-
-
         <PostDescription>{post.description}</PostDescription>
         
         {isExpanded && (
           <PostDetails>
-            <AdditionalPhotos>
-              <img src={"/assets/janela-bar.jpg"} alt="" />
-              <img src={"/assets/janela-bar.jpg"} alt="" />
-            </AdditionalPhotos>
+            <AdditionalPhotos 
+              className="additional-photos"
+              photos={[
+                { url: "edificioipanema.png" },
+                { url: "edificioipanema.png" },
+                { url: "centro.png" },
+                { url: "edificioipanema.png" },
+              ]}
+            />
             <MapComponent title={post.title} coordinates={post.coordinates} />
           </PostDetails>
         )}
+
       </PostContent>
       <Separator />
       <PostInteraction>
