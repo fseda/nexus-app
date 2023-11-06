@@ -12,7 +12,7 @@ export const Footer = styled.footer`
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border-radius: 16px;
+  border-radius: 16px 16px 0 0;
   border: 1px solid #00000021;
   z-index: 10000;
 
