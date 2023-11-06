@@ -13,6 +13,7 @@ export const Footer = styled.footer`
   justify-content: space-around;
   align-items: center;
   border-radius: 16px;
+  border: 1px solid #00000021;
   z-index: 10000;
 
   @media (max-width: 650px) {
