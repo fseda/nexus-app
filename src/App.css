@@ -1,0 +1,21 @@
+body {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
