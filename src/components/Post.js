@@ -23,8 +23,12 @@ const Post = styled.div`
 
 const PostImage = styled.img`
   width: 100%;
-  height: auto;
+  height: 20rem;
   object-fit: cover;
+
+  @media (max-width: 768px) {
+    height: auto;
+  }
 `;
 
 const PostContent = styled.div`
@@ -49,6 +53,10 @@ const PostDescription = styled.p`
   font-weight: 500;
   margin-bottom: 0.5rem;
   color: #000;
+
+  @media (max-width: 768px) {
+    max-height: 32rem;
+  }
 `;
 
 const ExpandButton = styled.button`
