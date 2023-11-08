@@ -64,3 +64,9 @@ A aplicação está estruturada da seguinte maneira:
 - `App.js`: O componente raiz da aplicação que orquestra todos os outros componentes.
 - `index.js`: O ponto de entrada para a aplicação React.
 - `App.css`: Arquivo CSS global para estilos gerais.
+
+## Slide
+Link para o slide: https://docs.google.com/presentation/d/1AclrcGwHlvewiejt2qv2XXGU0VBQTR1f8QvO5CuMZZ8/edit?usp=sharing
+
+## Trello
+Link para o trello: https://trello.com/b/cDoXwrzN/feed-passeio-carioca
