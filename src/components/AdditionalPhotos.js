@@ -46,7 +46,7 @@ const AdditionalPhotos = ({ photos }) => {
 
   return (
     <div>
-      <h3>Fotos Adicionais</h3>
+      <h3 className='additionalPhotosHeading'>Fotos Adicionais</h3>
       <PhotoGrid>
         {photos.map((photo, index) => (
           <Photo key={index}>

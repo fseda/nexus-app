@@ -13,12 +13,11 @@ const Main = styled.main`
   margin: 0 auto;
 
   display: grid;
-  grid-gap: 20px; 
-  padding: 20px;
+  grid-gap: 1rem; 
   justify-items: center;
   
   background-color: #fff;
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   overflow-x: hidden;
   overflow-y: auto;
   box-sizing: border-box;
