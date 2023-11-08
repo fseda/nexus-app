@@ -6,7 +6,7 @@ Este projeto utiliza a biblioteca Leaflet para incorporar e renderizar mapas int
 
 - **Personalização e Flexibilidade**: O Leaflet oferece amplas possibilidades de personalização, permitindo que você adapte o mapa de acordo com as necessidades do seu projeto.
 
-- **Ecossistema Robusto**: A comunidade do Leaflet é vasta, proporcionando um rico conjunto de plugins e recursos que tornam o Leaflet uma escolha sólida para o desenvolvimento de mapas interativos.
+- **Ecossistema Vasto**: A comunidade do Leaflet é vasta, proporcionando um rico conjunto de plugins e recursos que tornam o Leaflet uma escolha sólida para o desenvolvimento de mapas interativos.
 
 - **Desempenho Confiável**: O Leaflet é conhecido por sua performance sólida, tornando-o eficiente na renderização de mapas em aplicações React, inclusive em dispositivos com recursos limitados.
 
