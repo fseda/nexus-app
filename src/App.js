@@ -11,11 +11,13 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const Main = styled.main`
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  display: grid;
+  grid-gap: 1rem; 
+  justify-items: center;
+  
   background-color: #fff;
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   overflow-x: hidden;
   overflow-y: auto;
   box-sizing: border-box;
@@ -24,6 +26,10 @@ const Main = styled.main`
   line-height: 1.5rem;
   color: #333;
   text-align: center;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 const FadeTransition = styled.div`

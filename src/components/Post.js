@@ -5,12 +5,15 @@ import AdditionalPhotos from './AdditionalPhotos';
 import MapComponent from './MapComponent';
 
 const Post = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
-  max-width: 600px;
+  max-width: 30rem;
   border: 1px solid #e0e0e0;
   border-radius: 16px;
   overflow: hidden;
-  margin: 20px;
+  margin: 0.5rem;
   background-color: #F6F6F6;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   @media (max-width: 500px) {
@@ -25,9 +28,12 @@ const PostImage = styled.img`
 `;
 
 const PostContent = styled.div`
-  padding: 5px 15px 15px 15px;
+  padding: 0.4rem 1rem 1rem 1rem;
   font-family: Lato;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 `;
 
 const PostTitle = styled.h3`
@@ -37,9 +43,11 @@ const PostTitle = styled.h3`
 `;
 
 const PostDescription = styled.p`
+  max-height: 16rem;
+  overflow-y: auto;
   font-size: 1rem;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
   color: #000;
 `;
 
@@ -61,8 +69,9 @@ const PostInteraction = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 0.8rem;
   background-color: #f5f5f5;
+  border-top: 0.0625rem solid #00000021;
 `;
 
 const InteractionSpan = styled.span`
@@ -77,14 +86,8 @@ const InteractionSpan = styled.span`
   }
 `;
 
-const Separator = styled.div`
-  height: 0.0625rem;
-  width: 100%;
-  background-color: #00000021;
-`;
-
 const PostExpanded = styled.div`
-  padding: 30px 15px 15px 15px;
+  padding: 0.8rem;
 `;
 
 const PostHeader = styled.div`
@@ -137,7 +140,6 @@ const PostComponent = ({ post }) => {
         )}
 
       </PostContent>
-      <Separator />
       <PostInteraction>
         <InteractionSpan>
           <img src={"/assets/heart.svg"} alt="" />
