@@ -194,7 +194,10 @@ function App() {
   }
 
   const filteredPosts = posts
-    .filter(post => post.title.toLowerCase().includes(search))
+    .filter(post => 
+      post.title.toLowerCase().includes(search) || 
+      post.address.toLowerCase().includes(search)
+    )
     .map((post, index) => (
       <FadeTransition as={CSSTransition} key={index} timeout={300} classNames="fade">
         <PostComponent
@@ -203,7 +206,22 @@ function App() {
         />
       </FadeTransition>
   ));
-    
+
+  // if filtered posts length is 1, show only 1 column on the grid
+  if (filteredPosts.length === 1) {
+    Main.defaultProps = {
+      style: {
+        gridTemplateColumns: '1fr',
+      }
+    }
+  } else {
+    Main.defaultProps = {
+      style: {
+        gridTemplateColumns: 'repeat(2, 1fr)',
+      }
+    }
+  }
+
   return (
     <div className="App">
       <Header>
