@@ -169,7 +169,7 @@ function App() {
     {
       title: 'Instituto Brando Barbosa',
       address: 'Rua Lopes Quintas, 497, Jardim Botânico',
-      postalCode: ' 22250-020',
+      postalCode: ' 22460-010',
       imgUrl: 'instituto-brando-barbosa/brandobarbosa.png',
       likes: 420,
       comments: 69,
