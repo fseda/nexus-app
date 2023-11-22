@@ -75,16 +75,31 @@ function App() {
       comments: 99,
       coordinates: [-22.985298, -43.202795],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum in quia facere numquam delectus dolorum, rem inventore molestias velit cum beatae non debitis, quisquam, et facilis deleniti nemo ad officia. Cum sociis natoque penatibus et justo consequ  atur magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.`,
+      additionalPhotos: [
+        'edificioipanema.png',
+        'edificioipanema.png',
+        'edificioipanema.png',
+        'edificioipanema.png',
+        
+      ]
     },
     {
       title: 'Casa Eva Klabin',
       address: 'Avenida Epitácio Pessoa, 2480, Lagoa',
       postalCode: '22471-000',
-      imgUrl: 'casa-eva-klabin/casamuseuevak.png',
+      imgUrl: 'casa_eva.jpg',
       likes: 425,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      additionalPhotos: [
+        'eva.jpg',
+        'eva.jpg',
+        'eva.jpg',
+        'eva.jpg',
+        
+        
+      ]
     },
     {
       title: 'Edifício Alagoas',
@@ -95,17 +110,33 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
-    },
+      additionalPhotos: [
+        'edificio-alagoas/alagoas.png',
+        'edificio-alagoas/alagoas.png',
+        'edificio-alagoas/alagoas.png',
+        'edificio-alagoas/alagoas.png',
+
+          ]
+       },
     {
       title: 'Igreja de Nossa Senhora da Lapa dos Mercadores',
       address: 'Rua do Ouvidor, 35, Centro',
       postalCode: '20010-150',
-      imgUrl: 'igreja-nossa-senhora/Igreja.png',
+      imgUrl: 'light-and-airy-lapa-dos.jpg',
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
-    },
+      additionalPhotos: [
+        'igreja.png',
+        'igreja.png',
+        'igreja.png',
+        'igreja.png',
+  
+        
+        
+      ]
+     },
     {
       title: 'Sobrado da Cidade',
       address: 'Rua do Rosário, 34, Centro',
@@ -115,6 +146,15 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      additionalPhotos: [
+        'sobrado-da-cidade/sobrado.png',
+        'sobrado-da-cidade/sobrado.png',
+        'sobrado-da-cidade/sobrado.png',
+        'sobrado-da-cidade/sobrado.png',
+    
+        
+        
+      ]
     },
     {
       title: 'Edifício Colonial',
@@ -125,6 +165,14 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      additionalPhotos: [
+        'edificio-colonial/colonial.png',
+        'edificio-colonial/colonial.png',
+        'edificio-colonial/colonial.png',
+        'edificio-colonial/colonial.png',
+        
+        
+      ]
     },
     {
       title: 'Churrascaria Palace',
@@ -135,7 +183,16 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
-    },
+      additionalPhotos: [
+        'churrascaria-palace/palace.png',
+        'churrascaria-palace/palace.png',
+        'churrascaria-palace/palace.png',
+        'churrascaria-palace/palace.png',
+      
+        
+        
+      ]
+     },
     {
       title: 'Edifício Manhattan',
       address: 'Avenida Atlântica, 632, Copacabana',
@@ -145,7 +202,17 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
-    },
+      additionalPhotos: [
+        'edificio-manhattan/manhattan.png',
+        'edificio-manhattan/manhattan.png',
+        'edificio-manhattan/manhattan.png',
+        'edificio-manhattan/manhattan.png',
+   
+      
+        
+        
+      ]
+     },
     {
       title: 'Edifício Estrela',
       address: 'Rua Visconde de Pirajá, 336, Ipanema',
@@ -155,6 +222,16 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      additionalPhotos: [
+        'edificio-estrela/estrela.png',
+        'edificio-estrela/estrela.png',
+        'edificio-estrela/estrela.png',
+        'edificio-estrela/estrela.png',
+   
+      
+        
+        
+      ]
     },
     {
       title: 'Museu Carmen Miranda',
@@ -165,6 +242,16 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      additionalPhotos: [
+        'museu-carmen-miranda/museucarmemmiranda.png',
+        'museu-carmen-miranda/museucarmemmiranda.png',
+        'museu-carmen-miranda/museucarmemmiranda.png',
+        'museu-carmen-miranda/museucarmemmiranda.png',
+    
+      
+        
+        
+      ]
     },
     {
       title: 'Instituto Brando Barbosa',
@@ -175,6 +262,16 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      additionalPhotos: [
+        'instituto-brando-barbosa/brandobarbosa.png',
+        'instituto-brando-barbosa/brandobarbosa.png',
+        'instituto-brando-barbosa/brandobarbosa.png',
+        'instituto-brando-barbosa/brandobarbosa.png',
+    
+      
+        
+        
+      ]
     },
     {
       title: 'Edifício Fonseca e Silva',
@@ -185,43 +282,21 @@ function App() {
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      additionalPhotos: [
+        'edificio-fonseca-e-silva/edificiofonsecaesilva.png',
+        'edificio-fonseca-e-silva/edificiofonsecaesilva.png',
+        'edificio-fonseca-e-silva/edificiofonsecaesilva.png',
+        'edificio-fonseca-e-silva/edificiofonsecaesilva.png',
+        
+        
+      ]
     },
   ]);
 
   function handleSearch(event) {
     const value = event.target.value.toLowerCase();
     setSearch(value);
-
-    // if (filteredPosts.length <= 1 || window.innerWidth <= 768) {
-    //   Main.defaultProps = {
-    //     style: {
-    //       gridTemplateColumns: '1fr',
-    //     }
-    //   }
-    // } else {
-    //   Main.defaultProps = {
-    //     style: {
-    //       gridTemplateColumns: 'repeat(2, 1fr)',
-    //     }
-    //   }
-    // }
   }
-
-  // window.addEventListener('resize', (e) => {
-  //   if (filteredPosts.length <= 1 || window.innerWidth <= 768) {
-  //     Main.defaultProps = {
-  //       style: {
-  //         gridTemplateColumns: '1fr',
-  //       }
-  //     }
-  //   } else {
-  //     Main.defaultProps = {
-  //       style: {
-  //         gridTemplateColumns: 'repeat(2, 1fr)',
-  //       }
-  //     }
-  //   }
-  // })
 
   const filteredPosts = posts
     .filter(post => 
@@ -237,6 +312,20 @@ function App() {
       </FadeTransition>
   ));
 
+  // if filtered posts length is 1, show only 1 column on the grid
+  if (filteredPosts.length === 1) {
+    Main.defaultProps = {
+      style: {
+        gridTemplateColumns: '1fr',
+      }
+    }
+  } else {
+    Main.defaultProps = {
+      style: {
+        gridTemplateColumns: 'repeat(2, 1fr)',
+      }
+    }
+  }
 
   return (
     <div className="App">
