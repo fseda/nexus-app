@@ -100,7 +100,7 @@ function App() {
       title: 'Igreja de Nossa Senhora da Lapa dos Mercadores',
       address: 'Rua do Ouvidor, 35, Centro',
       postalCode: '20010-150',
-      imgUrl: 'igreja-nossa-senhora/Igreja.png',
+      imgUrl: 'light-and-airy-lapa-dos.jpg',
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
