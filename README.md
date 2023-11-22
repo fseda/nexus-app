@@ -2,7 +2,7 @@
 
 [Especificações do Projeto](https://github.com/fseda/Nexus)
 
-### QR Code para acessar a aplicação ou [clique aqui](https://nexus-app.up.railway.app/)
+### QR Code para acessar a aplicação ou [clique aqui](https://fseda.github.io/nexus-app)
 
 ![QR Code do deploy da aplicação](public/assets/nexus-app-qrcode.png)
 
