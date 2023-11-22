@@ -10,7 +10,7 @@ const NotFoundWrapper = styled.div`
   background-color: #f7f7f7;
   border: 1px solid #e0e0e0;
   border-radius: 5px;
-  margin: 100px 0;
+  margin: 100px auto;
   padding: 0 10px;
 `;
 

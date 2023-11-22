@@ -8,7 +8,7 @@ const Map = styled.div`
 `
 
 const MapComponent = ({ title, coordinates }) => {
-  const center = coordinates || [-23.006046, -43.313355]; // Defina um centro padrão caso `coordinates` seja indefinido
+  const center = coordinates || [-23.006046, -43.313355];
   const zoom = 13;
 
   return (
