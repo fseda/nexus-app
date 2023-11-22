@@ -4,7 +4,7 @@
 
 ### QR Code para acessar a aplicação ou [clique aqui](https://nexus-app.up.railway.app/)
 
-![QR Code do deploy da aplicação](public/assets/nexus-app-qrcode.png)
+![QR Code do deploy da aplicação](public/nexus-app/assets/nexus-app-qrcode.png)
 
 Este projeto consiste em uma aplicação web de feed de postagens onde os usuários podem visualizar histórias sobre locais históricas do Rio de Janeiro e filtrá-los por título usando uma barra de pesquisa. Além disso, a interface inclui botões de navegação no rodapé e uma animação suave durante a busca, melhorando a experiência do usuário.
 

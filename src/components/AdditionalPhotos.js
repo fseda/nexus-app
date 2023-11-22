@@ -50,7 +50,7 @@ const AdditionalPhotos = ({ photos }) => {
       <PhotoGrid>
         {photos.map((photo, index) => (
           <Photo key={index}>
-            <img src={`/assets/${photo.url}`} alt={photo.url} />
+            <img src={`/nexus-app/nexus-app/assets/${photo.url}`} alt={photo.url} />
           </Photo>
         ))}
       </PhotoGrid>

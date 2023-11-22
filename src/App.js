@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import './App.css';
 import { FooterButton } from './components/FooterButton';
 import { Footer, Header } from './components/Layout';
 import MenuComponent from './components/MenuComponent';
+import NotFound from './components/NotFound';
 import PostComponent from './components/Post';
 import SearchBar from './components/SearchBar';
-import NotFound from './components/NotFound';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -261,15 +261,15 @@ function App() {
       </Main>
       <Footer>
           <FooterButton>
-            <img src="/assets/favorites.png" alt="favorites" />
+            <img src="/nexus-app/assets/favorites.png" alt="favorites" />
             <small>FAVORITOS</small>
           </FooterButton>
           <FooterButton>
-            <img src="/assets/anuncios.png" alt="favorites" />
+            <img src="/nexus-app/assets/anuncios.png" alt="favorites" />
             <small>ANÚNCIOS</small>
           </FooterButton>
           <FooterButton>
-            <img src="/assets/minha-conta.png" alt="favorites" />
+            <img src="/nexus-app/assets/minha-conta.png" alt="favorites" />
             <small>MINHA CONTA</small>
           </FooterButton>
       </Footer>
