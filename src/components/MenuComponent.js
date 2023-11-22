@@ -5,7 +5,7 @@ const MenuIconWrapper = styled.div`
   height: 40px;
   margin-bottom: 10px;
   margin-top: 20px;
-  background-image: url('/assets/ellipse-1.svg');
+  background-image: url('/nexus-app/assets/ellipse-1.svg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -16,7 +16,7 @@ const MenuIconWrapper = styled.div`
 const StyledLines = styled.div`
   width: 20px;   
   height: 20px;  
-  background-image: url('/assets/hamburger-menu.png');
+  background-image: url('/nexus-app/assets/hamburger-menu.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 

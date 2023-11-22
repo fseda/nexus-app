@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import AddressComponent from './AddressComponent';
 import AdditionalPhotos from './AdditionalPhotos';
+import AddressComponent from './AddressComponent';
 import MapComponent from './MapComponent';
 
 const Post = styled.div`
@@ -122,7 +122,7 @@ const PostComponent = ({ post }) => {
 
   return (
     <Post>
-      <PostImage src={`/assets/${post.imgUrl}`} alt={post.name} />
+      <PostImage src={`/nexus-app/assets/${post.imgUrl}`} alt={post.name} />
       <PostContent>
         <PostHeader>
           <PostDetails>
@@ -150,15 +150,15 @@ const PostComponent = ({ post }) => {
       </PostContent>
       <PostInteraction>
         <InteractionSpan>
-          <img src={"/assets/heart.svg"} alt="" />
+          <img src={"/nexus-app/assets/heart.svg"} alt="" />
           {post.likes}
         </InteractionSpan>
         <InteractionSpan>
-          <img src={"/assets/comment.svg"} alt="" />
+          <img src={"/nexus-app/assets/comment.svg"} alt="" />
           {post.comments}
         </InteractionSpan>
         <InteractionSpan>
-          <img src={"/assets/bookmark.svg"} alt="" />
+          <img src={"/nexus-app/assets/bookmark.svg"} alt="" />
         </InteractionSpan>
       </PostInteraction>
     </Post>

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import './App.css';
 import { FooterButton } from './components/FooterButton';
 import { Footer, Header } from './components/Layout';
 import MenuComponent from './components/MenuComponent';
+import NotFound from './components/NotFound';
 import PostComponent from './components/Post';
 import SearchBar from './components/SearchBar';
-import NotFound from './components/NotFound';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const Main = styled.main`
   margin: 0 auto;
@@ -87,7 +87,7 @@ function App() {
       title: 'Casa Eva Klabin',
       address: 'Avenida Epitácio Pessoa, 2480, Lagoa',
       postalCode: '22471-000',
-      imgUrl: 'casa_eva.jpg',
+      imgUrl: 'casa-eva-klabin/casa_eva.jpg',
       likes: 425,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
@@ -102,10 +102,10 @@ function App() {
       A residência conta com mais de 2 mil peças que foram adquiridas por Eva ao longo de décadas. A visitação pode ser feita de quarta à domingo das 14h às 18h. Até o dia 19 de novembro é possível conferir a exposição “Essas Pessoas na Sala de Jantar”. Um programa imperdível para admiradores de arte, história e arquitetura!
 `,
       additionalPhotos: [
-        'eva.jpg',
-        'eva.jpg',
-        'eva.jpg',
-        'eva.jpg',
+        'casa-eva-klabin/eva.jpg',
+        'casa-eva-klabin/eva.jpg',
+        'casa-eva-klabin/eva.jpg',
+        'casa-eva-klabin/eva.jpg',
         
         
       ]
@@ -135,22 +135,22 @@ function App() {
         'edificio-alagoas/alagoas.png',
         'edificio-alagoas/alagoas.png',
 
-          ]
-       },
+      ]
+    },
     {
       title: 'Igreja de Nossa Senhora da Lapa dos Mercadores',
       address: 'Rua do Ouvidor, 35, Centro',
       postalCode: '20010-150',
-      imgUrl: 'light-and-airy-lapa-dos.jpg',
+      imgUrl: 'igreja-nossa-senhora/light-and-airy-lapa-dos.jpg',
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
       additionalPhotos: [
-        'igreja.png',
-        'igreja.png',
-        'igreja.png',
-        'igreja.png',
+        'igreja-nossa-senhora/igreja.png',
+        'igreja-nossa-senhora/igreja.png',
+        'igreja-nossa-senhora/igreja.png',
+        'igreja-nossa-senhora/igreja.png',
   
         
         
@@ -368,21 +368,6 @@ function App() {
       </FadeTransition>
   ));
 
-  // if filtered posts length is 1, show only 1 column on the grid
-  if (filteredPosts.length === 1) {
-    Main.defaultProps = {
-      style: {
-        gridTemplateColumns: '1fr',
-      }
-    }
-  } else {
-    Main.defaultProps = {
-      style: {
-        gridTemplateColumns: 'repeat(2, 1fr)',
-      }
-    }
-  }
-
   return (
     <div className="App">
       <Header>
@@ -406,15 +391,15 @@ function App() {
       </Main>
       <Footer>
           <FooterButton>
-            <img src="/assets/favorites.png" alt="favorites" />
+            <img src="/nexus-app/assets/favorites.png" alt="favorites" />
             <small>FAVORITOS</small>
           </FooterButton>
           <FooterButton>
-            <img src="/assets/anuncios.png" alt="favorites" />
+            <img src="/nexus-app/assets/anuncios.png" alt="favorites" />
             <small>ANÚNCIOS</small>
           </FooterButton>
           <FooterButton>
-            <img src="/assets/minha-conta.png" alt="favorites" />
+            <img src="/nexus-app/assets/minha-conta.png" alt="favorites" />
             <small>MINHA CONTA</small>
           </FooterButton>
       </Footer>
