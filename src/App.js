@@ -312,21 +312,6 @@ function App() {
       </FadeTransition>
   ));
 
-  // if filtered posts length is 1, show only 1 column on the grid
-  if (filteredPosts.length === 1) {
-    Main.defaultProps = {
-      style: {
-        gridTemplateColumns: '1fr',
-      }
-    }
-  } else {
-    Main.defaultProps = {
-      style: {
-        gridTemplateColumns: 'repeat(2, 1fr)',
-      }
-    }
-  }
-
   return (
     <div className="App">
       <Header>
