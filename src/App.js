@@ -80,7 +80,7 @@ function App() {
       title: 'Casa Eva Klabin',
       address: 'Avenida Epitácio Pessoa, 2480, Lagoa',
       postalCode: '22471-000',
-      imgUrl: 'casa-eva-klabin/casamuseuevak.png',
+      imgUrl: 'casa_eva.jpg',
       likes: 425,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
