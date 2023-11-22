@@ -192,36 +192,36 @@ function App() {
     const value = event.target.value.toLowerCase();
     setSearch(value);
 
-    if (filteredPosts.length <= 1 || window.innerWidth <= 768) {
-      Main.defaultProps = {
-        style: {
-          gridTemplateColumns: '1fr',
-        }
-      }
-    } else {
-      Main.defaultProps = {
-        style: {
-          gridTemplateColumns: 'repeat(2, 1fr)',
-        }
-      }
-    }
+    // if (filteredPosts.length <= 1 || window.innerWidth <= 768) {
+    //   Main.defaultProps = {
+    //     style: {
+    //       gridTemplateColumns: '1fr',
+    //     }
+    //   }
+    // } else {
+    //   Main.defaultProps = {
+    //     style: {
+    //       gridTemplateColumns: 'repeat(2, 1fr)',
+    //     }
+    //   }
+    // }
   }
 
-  window.addEventListener('resize', (e) => {
-    if (filteredPosts.length <= 1 || window.innerWidth <= 768) {
-      Main.defaultProps = {
-        style: {
-          gridTemplateColumns: '1fr',
-        }
-      }
-    } else {
-      Main.defaultProps = {
-        style: {
-          gridTemplateColumns: 'repeat(2, 1fr)',
-        }
-      }
-    }
-  })
+  // window.addEventListener('resize', (e) => {
+  //   if (filteredPosts.length <= 1 || window.innerWidth <= 768) {
+  //     Main.defaultProps = {
+  //       style: {
+  //         gridTemplateColumns: '1fr',
+  //       }
+  //     }
+  //   } else {
+  //     Main.defaultProps = {
+  //       style: {
+  //         gridTemplateColumns: 'repeat(2, 1fr)',
+  //       }
+  //     }
+  //   }
+  // })
 
   const filteredPosts = posts
     .filter(post => 
