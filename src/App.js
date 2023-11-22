@@ -74,7 +74,11 @@ function App() {
       likes: 420,
       comments: 99,
       coordinates: [-22.985298, -43.202795],
-      description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum in quia facere numquam delectus dolorum, rem inventore molestias velit cum beatae non debitis, quisquam, et facilis deleniti nemo ad officia. Cum sociis natoque penatibus et justo consequ  atur magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.`,
+      description: `Foi projetado em 1978 por Mauro Neves Nogueira e pelo arquiteto Luiz Paulo Conde (1934-2015), prefeito do Rio de Janeiro entre os anos de 1997 a 2000. Sua construção foi realizada pela Griner Engenheiros Construtores. Em 1981 o prédio foi concluído recebendo o nome de seu proprietário na época, a Atlântica Boavista Imobiliária.
+      Apesar de ser um edifício alto apenas quatro andares são destinados aos apartamentos. Nos dois primeiros ficam a garagem, play e academia.
+      O grande destaque são os cobogós usados na garagem, fachada e nas varandas de todas as unidades. O cobogó escolhido foi o hexaédrico cerâmico de dez centímetros, que atua como elemento vazado com a finalidade de iluminar e ventilar. Nesse caso ele também serve como revestimento, tornando-se assim, o grande protagonista do Atlântica Boavista.
+      Lembrando que o cobogó nasceu na década de 1920, em Recife, e seu nome surgiu a partir da junção das primeiras sílabas dos sobrenomes de seus criadores: o português
+      Amadeu Oliveira Coimbra, o alemão Ernesto August Boeckmann e o brasileiro Antônio de Góis.`,
     },
     {
       title: 'Casa Eva Klabin',
