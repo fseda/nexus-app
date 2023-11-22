@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nexus-app/static/css/main.3a4bc7b1.css",
-    "main.js": "/nexus-app/static/js/main.76aa40f8.js",
+    "main.js": "/nexus-app/static/js/main.b807db7e.js",
     "static/js/787.33dbe600.chunk.js": "/nexus-app/static/js/787.33dbe600.chunk.js",
     "index.html": "/nexus-app/index.html",
     "main.3a4bc7b1.css.map": "/nexus-app/static/css/main.3a4bc7b1.css.map",
-    "main.76aa40f8.js.map": "/nexus-app/static/js/main.76aa40f8.js.map",
+    "main.b807db7e.js.map": "/nexus-app/static/js/main.b807db7e.js.map",
     "787.33dbe600.chunk.js.map": "/nexus-app/static/js/787.33dbe600.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a4bc7b1.css",
-    "static/js/main.76aa40f8.js"
+    "static/js/main.b807db7e.js"
   ]
 }
