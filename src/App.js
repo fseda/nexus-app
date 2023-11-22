@@ -74,7 +74,12 @@ function App() {
       likes: 420,
       comments: 99,
       coordinates: [-22.985298, -43.202795],
-      description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum in quia facere numquam delectus dolorum, rem inventore molestias velit cum beatae non debitis, quisquam, et facilis deleniti nemo ad officia. Cum sociis natoque penatibus et justo consequ  atur magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit.`,
+      description: `Foi projetado em 1978 por Mauro Neves Nogueira e pelo arquiteto Luiz Paulo Conde (1934-2015), prefeito do Rio de Janeiro entre os anos de 1997 a 2000. Sua construção foi realizada pela Griner Engenheiros Construtores. Em 1981 o prédio foi concluído recebendo o nome de seu proprietário na época, a Atlântica Boavista Imobiliária.
+      Apesar de ser um edifício alto apenas quatro andares são destinados aos apartamentos. Nos dois primeiros ficam a garagem, play e academia.
+      O grande destaque são os cobogós usados na garagem, fachada e nas varandas de todas as unidades. O cobogó escolhido foi o hexaédrico cerâmico de dez centímetros, que atua como elemento vazado com a finalidade de iluminar e ventilar. Nesse caso ele também serve como revestimento, tornando-se assim, o grande protagonista do Atlântica Boavista.
+      Lembrando que o cobogó nasceu na década de 1920, em Recife, e seu nome surgiu a partir da junção das primeiras sílabas dos sobrenomes de seus criadores: o português
+      Amadeu Oliveira Coimbra, o alemão Ernesto August Boeckmann e o brasileiro Antônio de Góis.
+`,
       additionalPhotos: [
         'edificioipanema.png',
         'edificioipanema.png',
@@ -145,7 +150,10 @@ function App() {
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
-      description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      description: `A Igreja de Nossa Senhora da Lapa dos Mercadores, guarda um tesouro histórico há 130 anos. Trata-se de uma bala de canhão que atingiu sua torre durante a Revolta da Armada, em 1893. Na ocasião, a imagem da Nossa Senhora da Fé caiu da torre de uma altura de 25 metros sem sofrer grandes danos,tendo quebrado apenas alguns dedos de uma das mãos.
+      A escultura encontra-se preservada numa sala da igreja ao lado da bala fixada numa das paredes. Outro elemento importante do templo é um medalhão trabalhado em mármore, fixado na parte superior da fachada, que representa a coroação da Virgem Maria. Ele foi encontyrado durante escavações realizadas no terreno para uma remodulação da igreja no século XIX.
+      Essa contrução foi inaugurada em 1750,estava fechada desde 2020 e em maio de 2023 reabriu as portas aos fiéis e ao público graças ao empenho do Cláudio André Castro, nomeado Comissário Administrativo da Irmandade dos Mercadores.
+`,
       additionalPhotos: [
         'igreja-nossa-senhora/igreja.png',
         'igreja-nossa-senhora/igreja.png',
@@ -164,7 +172,12 @@ function App() {
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
-      description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      description: `Foi inaugurado em 1865 uma construção de três andares e azulejos holandeses em sua fachada.
+      No passado esse imóvel foi sede de diversos estabelecimentos comerciais e da Companhia Nacional de
+      Salinas Mossoró - Assú, uma companhia marítima que existiu até 1901. Foi residência nos pavimentos superiores, tendo funcionado como pensão e aluguel de cômodos e escritórios. No térreo tinham armazéns e depósitos.
+      Hoje no local funciona o bar e restaurante Sobrado da Cidade. A experiência começa no restaurado Sobrado com a reprodução de um generoso café da manhã da última década do século XIX no estilo banquete, como era servido para a alta sociedade. A imersão no passado é feita através de muitos detalhes de época: trilha sonora, porcelanas, pratarias, talheres e principalmente o cardápio.
+      Destaque para as rabanadas!
+`,
       additionalPhotos: [
         'sobrado-da-cidade/sobrado.png',
         'sobrado-da-cidade/sobrado.png',
@@ -183,7 +196,12 @@ function App() {
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
-      description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      description: `O prédio inaugurado em 1938, faz parte do Circuito da Música graças a Renato Russo (1960-1996), seu famoso morador.
+      Ele viveu no apartamento 201 (janelas com grades do meio da fachada) de 1990 até 1996, ano de sua morte. A linda porta de entrada do prédio foi usada na capa de seu disco "Stonewall Celebration" de 1994.
+      Outros quatro discos foram criados nesse endereço. Atualmente, o apartamento do cantor e compositor está fechado. Tudo em seu interior está do jeito que ele deixou: com todos os seus LPs, livros, móveis e documentos.
+      Até hoje os fãs do cantor vão até a porta do Edifício Colonial para replicar a foto da lendária capa do disco de Renato Russo.
+      O Edifício Colonial, ganhou a famosa placa azul de patrimônio cultural da prefeitura do Rio de Janeiro.
+`,
       additionalPhotos: [
         'edificio-colonial/colonial.png',
         'edificio-colonial/colonial.png',
@@ -317,7 +335,13 @@ function App() {
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
-      description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
+      description: `O banqueiro Jorge Brando Barbosa (1919-2002) e sua esposa Odaléa Brando Barbosa (1927-2019) foram morar nesse oásis de tranquilidade no início da década de 1960.
+      O casal comprou a propriedade, construída no século XIX, em 1957. Eles fizeram reformas no imóvel e investiram no paisagismo dos jardins de 12 mil m2 de Mata Atlântica.
+      Viveram nessa casa até o fim de suas vidas. Como não tiveram filhos, foi criado em 2019 o Instituto Brando Barbosa para administrar essa residência e uma coleção de mais de seis mil peças.
+      Dentre elas uma banheira de mármore, que foi de Dona Teresa Cristina, esposa de Dom Pedro II, e que está exposta no banheiro principal do imóvel.
+      A casa vazia já seria motivo para a visitação. O mármore de Carrara do piso foi trazido da Europa e os desenhos geométricos que enfeitam o chão foram criados pelo antigo dono.
+      A espetacular escada em madeira foi esculpida em uma única peça, arrematada pelo casal com o dinheiro da venda de dois apartamentos na Avenida Vieira Souto, em Ipanema.
+`,
       additionalPhotos: [
         'instituto-brando-barbosa/brandobarbosa.png',
         'instituto-brando-barbosa/brandobarbosa.png',
