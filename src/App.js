@@ -87,16 +87,16 @@ function App() {
       title: 'Casa Eva Klabin',
       address: 'Avenida Epitácio Pessoa, 2480, Lagoa',
       postalCode: '22471-000',
-      imgUrl: 'casa_eva.jpg',
+      imgUrl: 'casa-eva-kablin/casa_eva.jpg',
       likes: 425,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
       description: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus! Cumque iure maxime architecto optio nam cum excepturi velit dicta nisi dignissimos, voluptate ipsa consequatur odio sed vero eveniet animi? Lorem ipsum dolor sit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident optio repellat velit unde quos molestias harum debitis illo nam incidunt hic consectetur veniam, voluptate molestiae omnis doloribus eius, neque distinctio?`,
       additionalPhotos: [
-        'eva.jpg',
-        'eva.jpg',
-        'eva.jpg',
-        'eva.jpg',
+        'casa-eva-kablin/eva.jpg',
+        'casa-eva-kablin/eva.jpg',
+        'casa-eva-kablin/eva.jpg',
+        'casa-eva-kablin/eva.jpg',
         
         
       ]
@@ -116,13 +116,13 @@ function App() {
         'edificio-alagoas/alagoas.png',
         'edificio-alagoas/alagoas.png',
 
-          ]
-       },
+      ]
+    },
     {
       title: 'Igreja de Nossa Senhora da Lapa dos Mercadores',
       address: 'Rua do Ouvidor, 35, Centro',
       postalCode: '20010-150',
-      imgUrl: 'light-and-airy-lapa-dos.jpg',
+      imgUrl: 'igreja.png',
       likes: 420,
       comments: 69,
       coordinates: [-22.952075, -43.338358],
