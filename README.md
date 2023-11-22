@@ -6,6 +6,8 @@
 
 ![QR Code do deploy da aplicação](public/assets/nexus-app-qrcode.png)
 
+[Protótipo no Figma](https://www.figma.com/proto/iAdXW9OlZqI7b2lDzNd5mX/Untitled?type=design&t=i4MaMrGADoc4xIBc-0&scaling=scale-down&page-id=0%3A1&node-id=3-2)
+
 Este projeto consiste em uma aplicação web de feed de postagens onde os usuários podem visualizar histórias sobre locais históricas do Rio de Janeiro e filtrá-los por título usando uma barra de pesquisa. Além disso, a interface inclui botões de navegação no rodapé e uma animação suave durante a busca, melhorando a experiência do usuário.
 
 ## Tecnologias Utilizadas
