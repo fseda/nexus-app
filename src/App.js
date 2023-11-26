@@ -405,7 +405,17 @@ function App() {
           onChange={handleSearch}
         />
        <Link to="/about">
-        <button>Sobre</button>
+        <button style={{ 
+          backgroundColor: '#0077cc', 
+          color: 'white', 
+          border: 'none', 
+          padding: '10px 20px', 
+          borderRadius: '5px', 
+          cursor: 'pointer',
+          fontSize: '16px' 
+        }}>
+          Sobre
+        </button>
       </Link>
     </Header>
       <Main>
