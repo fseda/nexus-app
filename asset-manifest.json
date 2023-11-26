@@ -1,15 +1,20 @@
 {
   "files": {
     "main.css": "/nexus-app/static/css/main.3a4bc7b1.css",
-    "main.js": "/nexus-app/static/js/main.fa37a548.js",
+    "main.js": "/nexus-app/static/js/main.e7b1c221.js",
     "static/js/787.33dbe600.chunk.js": "/nexus-app/static/js/787.33dbe600.chunk.js",
+    "static/media/victor.jpeg": "/nexus-app/static/media/victor.5af44289121229cc2a6d.jpeg",
+    "static/media/emilly.jpeg": "/nexus-app/static/media/emilly.5554ed4c26795954ffd5.jpeg",
+    "static/media/isabella.jpeg": "/nexus-app/static/media/isabella.3cfdbe2c78100a8e9a43.jpeg",
+    "static/media/felipe.jpeg": "/nexus-app/static/media/felipe.c06cc0ea6126adbf4aee.jpeg",
+    "static/media/beatriz.jpeg": "/nexus-app/static/media/beatriz.714a3f90d76bdfd52e66.jpeg",
     "index.html": "/nexus-app/index.html",
     "main.3a4bc7b1.css.map": "/nexus-app/static/css/main.3a4bc7b1.css.map",
-    "main.fa37a548.js.map": "/nexus-app/static/js/main.fa37a548.js.map",
+    "main.e7b1c221.js.map": "/nexus-app/static/js/main.e7b1c221.js.map",
     "787.33dbe600.chunk.js.map": "/nexus-app/static/js/787.33dbe600.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a4bc7b1.css",
-    "static/js/main.fa37a548.js"
+    "static/js/main.e7b1c221.js"
   ]
 }
