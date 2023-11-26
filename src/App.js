@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import './App.css';
@@ -402,7 +404,10 @@ function App() {
           value={search}
           onChange={handleSearch}
         />
-      </Header>
+       <Link to="/about">
+        <button>Sobre</button>
+      </Link>
+    </Header>
       <Main>
         <TransitionGroup component={null}>
           {filteredPosts.length > 0 ? 
