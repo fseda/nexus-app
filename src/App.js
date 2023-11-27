@@ -414,7 +414,7 @@ function App() {
           cursor: 'pointer',
           fontSize: '16px' 
         }}>
-          Sobre
+          Sobre os desenvolvedores
         </button>
       </Link>
     </Header>

@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/nexus-app" element={<App />} />
         <Route path="about" element={<About />} />
       </Routes>
     </Router>
